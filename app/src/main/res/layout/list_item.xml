@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="10dp"
+    android:background="#1a4e95"
+    android:layout_margin="8dp">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#1a4e95"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/pid"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+
+
+
+    <TextView
+        android:id="@+id/allPlaceName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="6dip"
+        android:paddingLeft="6dip"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:text="Place Name"
+        android:typeface="serif"
+         />
+
+    <TextView
+        android:id="@+id/allLandMark"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="6dip"
+        android:textColor="#fff"
+        android:paddingLeft="6dip"
+        android:textSize="20sp"
+        android:text="Landmark"
+        android:typeface="serif"
+        />
+
+    <TextView
+        android:id="@+id/allProb"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="6dip"
+        android:textColor="#fff"
+        android:paddingLeft="6dip"
+        android:textSize="20sp"
+        android:text="Problem"
+        android:typeface="serif"
+         />
+
+    <TextView
+        android:id="@+id/allAltRoute"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="6dip"
+        android:paddingLeft="6dip"
+        android:textSize="20sp"
+        android:text="Alternate Route"
+        android:textColor="#fff"
+        android:typeface="serif"
+        />
+
+    <TextView
+        android:id="@+id/allSolved"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="6dip"
+        android:paddingLeft="6dip"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:text="Solved"
+        android:typeface="serif"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3abec2"
+        android:textColor="#fff"
+        android:onClick="btnClickProbSolved"
+        android:text="Solved!!!"
+        />
+
+</LinearLayout>
+
+    </android.support.v7.widget.CardView>

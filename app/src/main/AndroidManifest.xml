@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.chennai20design">
+
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TrainList"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Problems"
+            android:label="@string/title_activity_problems"
+            android:theme="@style/ProbTheme.NoActionBar" />
+        <activity
+            android:name=".MonumentsNavDrawer"
+            android:label="@string/title_activity_places_nav_drawer"
+            android:theme="@style/PlacesTheme.NoActionBar" />
+        <activity
+            android:name=".PlaceDesc"
+            android:theme="@style/PlacesTheme.NoActionBar" />
+        <activity
+            android:name=".FirstScreen"
+            android:label="@string/title_activity_first_screen"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="com.example.user.chennai20design.FIRSTSCREEN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SpiritualNavDrawer"
+            android:label="@string/title_activity_spiritual_nav_drawer"
+            android:theme="@style/SpiTheme.NoActionBar" />
+        <activity
+            android:name=".SpiDesc"
+            android:theme="@style/SpiTheme.NoActionBar" />
+        <activity
+            android:name=".NatParkNavDrawer"
+            android:label="@string/title_activity_nat_park_nav_drawer"
+            android:theme="@style/NatTheme.NoActionBar" />
+        <activity
+            android:name=".NatDesc"
+            android:theme="@style/NatTheme.NoActionBar" />
+        <activity
+            android:name=".NewProblemActivity"
+            android:theme="@style/ProbTheme.NoActionBar" />
+        <activity android:name=".Confirmation" />
+        <activity android:name=".About" />
+        <activity android:name=".developers" />
+        <activity android:name=".AboutAct"></activity>
+    </application>
+
+</manifest>

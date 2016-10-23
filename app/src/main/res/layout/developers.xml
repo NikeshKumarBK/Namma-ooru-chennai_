@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3abec2"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#efeff9"
+    android:layout_height="match_parent">
+
+    <com.example.user.chennai20design.RoundedImageView
+        android:id="@+id/imgRound1"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:elevation="10dp"
+        android:src="@mipmap/icon"/>
+
+
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:elevation="10dp"
+        android:paddingTop="15dp"
+        android:layout_gravity="center"
+        android:background="#fe9375"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="15dp"
+
+        android:layout_marginTop="10dp"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:text="UI Designer"
+        android:gravity="center"
+    android:id="@+id/textView"
+    android:textColor="#fff"
+    android:typeface="serif"
+    android:textSize="30sp"
+    android:layout_marginBottom="22dp"
+    android:layout_above="@+id/tutorial"
+    android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Dhamodharan R"
+        android:gravity="center"
+        android:textColor="#757575"
+        android:fontFamily="sans-serif-light"
+        android:textSize="30sp"
+        android:layout_marginBottom="22dp"
+        android:layout_above="@+id/tutorial"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Backend programmer"
+        android:elevation="10dp"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:background="#fe9375"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:typeface="serif"
+        android:textSize="30sp"
+        android:layout_marginBottom="22dp"
+        android:layout_above="@+id/tutorial"
+        android:layout_centerHorizontal="true" />
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Nikesh Kumar B K"
+        android:gravity="center"
+        android:textColor="#757575"
+        android:fontFamily="sans-serif-light"
+        android:textSize="30sp"
+        android:layout_marginBottom="22dp"
+        android:layout_above="@+id/tutorial"
+        android:layout_centerHorizontal="true" />
+
+
+
+</LinearLayout>
+
+    </ScrollView>

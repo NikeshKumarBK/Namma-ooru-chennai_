@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:title="Monuments" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:title="Spiritual" />
+
+    </group>
+
+    <item android:title="For The People">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:title="Train Timings" />
+        </menu>
+    </item>
+    <item android:title="By The People">
+        <menu>
+
+            <item
+                android:id="@+id/nav_probs"
+                android:title="Problems" />
+        </menu>
+    </item>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_about"
+            android:title="About" />
+
+    </group>
+
+</menu>
